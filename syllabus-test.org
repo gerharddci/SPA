@@ -1,0 +1,4 @@
+* Syllabus
+** link to notes (html): [[./notes/html-export-test.html][Export Test]]
+** link to slides (pdf): [[./slides/org-reveal-demo.pdf][org-reveal-demo.pdf]]
+
