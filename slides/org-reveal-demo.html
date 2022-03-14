@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Gerhard Nuffer)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/serif.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h2 class="author">Gerhard Nuffer</h2><h2 class="date">2022-03-12 Sat 00:00</h2>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org4c87fd5">Intro Slide</a></li>
+<li><a href="#/slide-org53a1287">Slides and sub-slides</a></li>
+<li><a href="#/slide-orgd7f1ea3">Images</a></li>
+<li><a href="#/slide-org779f580">Another slide</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section>
+<section id="slide-org4c87fd5">
+<h2 id="org4c87fd5">Intro Slide</h2>
+<aside class="notes">
+<p>
+A note visible to me only (hopefully).
+</p>
+
+</aside>
+
+<ol>
+<li class="fragment appear">Point one</li>
+<li class="fragment appear">Point two</li>
+<li class="fragment appear">Point three</li>
+
+</ol>
+
+</section>
+</section>
+<section>
+<section id="slide-org53a1287">
+<h2 id="org53a1287">Slides and sub-slides</h2>
+<div class="outline-text-2" id="text-org53a1287">
+</div></section>
+<section id="slide-orgb522eea">
+<h3 id="orgb522eea">Subslide</h3>
+<p>
+Some text here.
+</p>
+
+</section>
+<section id="slide-orgfee13e6">
+<h3 id="orgfee13e6">Markup</h3>
+<ul>
+<li><b>bold</b></li>
+<li><i>italic</i></li>
+<li><span class="underline">underlined</span></li>
+
+</ul>
+
+</section>
+<section id="slide-org1439018">
+<h4 id="org1439018">A subslide</h4>
+<p>
+This one is three levels deep - slide 2, Subslide 2, Subsubslide 1.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgd7f1ea3">
+<h2 id="orgd7f1ea3">Images</h2>
+
+<div class="figure">
+<p><img src="./images/code-1-snippet.png" alt="code-1-snippet.png" width="45%" align="center" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org779f580">
+<h2 id="org779f580">Another slide</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

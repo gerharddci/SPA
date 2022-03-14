@@ -1,0 +1,20 @@
+#+TITLE: Technical Notes
+#+AUTHOR: Jake B
+#+OPTIONS: num:nil
+#+SETUPFILE: org-html-themes/org/theme-readtheorg-local.setup
+
+* In this video
+** basic org mode HTML export
+   - one
+   - two
+   - three
+** Basic options to customize the export
+** Further customizing the exported HTML
+   Make it look better
+*** Custom CSS and setup files
+** Further first
+** Further second
+** Further third
+** Further fourth
+** Further fifth
+** Further sixth
