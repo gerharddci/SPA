@@ -60,7 +60,7 @@
 
 ## Image
 
-![](./images/code-1-snippet.png)
+![](./notes/images/code-1-snippet.png)
 
 For better viewing experience, clone the repository and open the
 corresponding html files in the browser.
