@@ -1,6 +1,6 @@
 # E09: Single Page Application (SPA) Module
 
-## Week 1: Intro to SPAs and the DOM
+## Week 1: [Intro to SPAs and the DOM](./week-1.org)
 
 | Week   | Date               | Topics           | Links          |
 | ------ | ------------------ | ---------------- | -------------- |
