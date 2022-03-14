@@ -1,4 +1,8 @@
 * Syllabus
-** link to notes (html): [[./notes/html-export-test.html][Export Test]]
+** link to notes (markdown): [[./notes/html-export-test.html][Export Test]]
 ** link to slides (pdf): [[./slides/org-reveal-demo.pdf][org-reveal-demo.pdf]]
+   
+   For better viewing experience, clone the repository and open the
+   corresponding html files in the browser.
 
+   
