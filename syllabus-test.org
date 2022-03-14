@@ -59,6 +59,8 @@
    |--------+------------------+------------------+----------------|
 ** link to notes (markdown): [[./notes/html-export-test.html][Export Test]]
 ** link to slides (pdf): [[./slides/org-reveal-demo.pdf][org-reveal-demo.pdf]]
+** Image
+   [[./images/code-1-snippet.png]]
    
    For better viewing experience, clone the repository and open the
    corresponding html files in the browser.
